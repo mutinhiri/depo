@@ -5,5 +5,6 @@ class ProductTest < ActiveSupport::TestCase
     product = Product.new
     assert product.invalid?
     assert product.errors[:title].any?
+    assert product.errors[:description].any?
   end
 end
