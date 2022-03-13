@@ -23,3 +23,4 @@ validation is for protecting the database to avoid bad data
 validation checks one or more fields against one or more conditions 
 
 presense: true checks if name fields is present
+uniqueness: true checks to make sure if username is not replicated
