@@ -19,3 +19,4 @@ can choose to skip to the next or ship the order
 
 TASK B VALIDATION AND UNIT TESTING
 - The model is the gatekeeper between the world of code and the database
+validation is for protecting the database to avoid bad data
