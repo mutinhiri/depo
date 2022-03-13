@@ -1,3 +1,5 @@
 use cases
 
 the buyer will use the app to browse the products we have to sell,  selects some to purchase, and supply the information needed to create the order
+
+The seller uses the depot to maintain a alist of products to sell 
