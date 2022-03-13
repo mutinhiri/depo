@@ -14,4 +14,4 @@ seller
 after logging in, the seller sees a menu letting her create or view a product or ship existing orders.
 When viewing the products, seller can optionally edit the product or delete the product entirely
 
-shippping function
+shippping function displays each order that hasnt been yet shipped obe order per page. 
