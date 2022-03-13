@@ -18,4 +18,4 @@ shippping function displays each order that hasnt been yet shipped one order per
 can choose to skip to the next or ship the order
 
 TASK B VALIDATION AND UNIT TESTING
-- The model
+- The model is the gatekeeper between the world of code 
