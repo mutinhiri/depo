@@ -21,3 +21,5 @@ TASK B VALIDATION AND UNIT TESTING
 - The model is the gatekeeper between the world of code and the database
 validation is for protecting the database to avoid bad data
 validation checks one or more fields against one or more conditions 
+
+presense: true checks if name fields is present
