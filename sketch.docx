@@ -6,4 +6,5 @@ The seller uses the depot to maintain a a list of products to sell, determine th
 
 ERd diagram
 
-the buyer sees a catalogue page from which he selecyts one prioduct at a time
+the buyer sees a catalogue page from which he selecyts one prioduct at a time,
+each product selected is added to the cart
