@@ -26,3 +26,4 @@ presense: true checks if name fields is present
 uniqueness: true checks to make sure if username is not replicated
 
 Test fixtures
+these files contain test data in yml format
