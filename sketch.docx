@@ -27,3 +27,4 @@ uniqueness: true checks to make sure if username is not replicated
 
 Test fixtures
 these files contain test data in yml format
+Each fixture contains data for a single model. t
