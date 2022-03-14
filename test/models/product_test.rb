@@ -16,4 +16,5 @@ class ProductTest < ActiveSupport::TestCase
     assert_equal ["must be greater than or wqual to 0.01"],
       product.errors[:price]
     product.price = 1
+    assert product.valid?
 end
