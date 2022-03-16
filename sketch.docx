@@ -1,0 +1,26 @@
+use cases
+
+the buyer will use the app to browse the products we have to sell,  selects some to purchase, and supply the information needed to create the order
+
+The seller uses the depot to maintain a a list of products to sell, determine the orders that are awaiting shipment and mark orders as shipped
+
+ERd diagram
+
+the buyer sees a catalogue page from which he selecyts one prioduct at a time,
+each product selected is added to the cart and the cart is displayed after each selection
+the buyer can continue using the catalogue page
+
+seller
+after logging in, the seller sees a menu letting her create or view a product or ship existing orders.
+When viewing the products, seller can optionally edit the product or delete the product entirely
+
+shippping function displays each order that hasnt been yet shipped one order per page. the seller
+can choose to skip to the next or ship the order
+
+TASK B VALIDATION AND UNIT TESTING
+- The model is the gatekeeper between the world of code and the database
+validation is for protecting the database to avoid bad data
+validation checks one or more fields against one or more conditions 
+
+presense: true checks if name fields is present
+uniqueness: true checks to make sure if username is not replicated
