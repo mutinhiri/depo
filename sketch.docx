@@ -31,3 +31,4 @@ Each fixture contains data for a single model. The name of the fixture is signif
 
 Store app => interact with paying customers
 store_index will enable existing code and tests 
+add changes
