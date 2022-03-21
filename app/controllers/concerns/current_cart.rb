@@ -1,5 +1,5 @@
 module CurrentCart
   private
     def set_cart
-      @cart = Carty.find(session[:cart_id])
+      @cart = Cart.find(session[:cart_id])
     rescue 
