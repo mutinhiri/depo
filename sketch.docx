@@ -28,3 +28,7 @@ uniqueness: true checks to make sure if username is not replicated
 Test fixtures
 these files contain test data in yml format
 Each fixture contains data for a single model. The name of the fixture is significant: the base name of the file must match the name odf the database table
+
+Store app => interact with paying customers
+store_index will enable existing code and tests 
+add changes
