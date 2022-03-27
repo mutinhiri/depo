@@ -46,7 +46,7 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
 
   test "should update line_item" do
     patch line_item_url(@line_item),
-     params: { line_item: { product_id: @line_item.product_id } }
+      params: { line_item: { product_id: @line_item.product_id } }
     assert_redirected_to line_item_url(@line_item)
   end
 
@@ -56,5 +56,15 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to line_items_url
+  end
+
+  test "should create line_item via ajax" do
+    assert_difference('LineItem.count') do
+      post line_items_url, params: { product_id: products(:ruby).id },
+        xhr: true
+    end 
+
+    assert_response :success
+    assert_match /<tr class=\\"line-item-highlight/, @response.body
   end
 end
