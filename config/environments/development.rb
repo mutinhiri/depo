@@ -10,7 +10,7 @@ Rails.application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
-  config
+  config.action_cable.disable
 
   # Show full error reports.
   config.consider_all_requests_local = true
