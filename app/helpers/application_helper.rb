@@ -1,3 +1,3 @@
 module ApplicationHelper
-  def render_if(condition, recrd)
+  def render_if(condition, record)
 end
