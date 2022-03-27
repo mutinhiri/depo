@@ -10,4 +10,7 @@ class Cart < ApplicationRecord
     end
     current_item
   end
+
+  def total_price
+    
 end
